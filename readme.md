@@ -73,7 +73,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
   * [Pythonic perambulations](http://jakevdp.github.io/)
 
-  * [Andrew Gelman ](http://andrewgelman.com/) 
+  * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/) 
 
 ##  Writing Papers
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
