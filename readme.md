@@ -33,6 +33,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ```
 * You or your lab may be most familiar with Matlab. It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
+* [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a tutorial for learning python. It consists of 52 exercises from installing Python (Exercise 0) to building a web game (Exercise 52). Everyone in our lab who learned python used this tutorial.
+
 * Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to becoming a python data ninja.
 
 * [Anaconda](https://www.continuum.io/downloads) provides a scientific distribution of python that enables high performance computing and analysis. 
