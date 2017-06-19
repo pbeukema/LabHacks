@@ -8,6 +8,7 @@
 [Literature search](#literature-search)  
 [Writing papers](#writing-papers)   
 [Meetings](#meetings-with-your-pi)     
+[Papers of special significance]
 ##
 ## Analysis 
 * Start with a clear and universal directory structure for organizing your analysis, data, figures, etc. [Here](http://nikola.me/folder_structure.html) is a template you can follow for a transparent directory structure.  
@@ -105,6 +106,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@jakevdp](https://twitter.com/jakevdp)  python, data analysis, astrophysics
 * [@fonnesbeck](https://twitter.com/fonnesbeck) statistical analysis in python
 
+## Papers
+* [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
+* [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
 ##  Meetings 
 * Never show up empty handed to meetings with your PI.
 * Have a clear objective to all meetings that everyone else knows as well.
