@@ -3,12 +3,12 @@
 [Analysis](#analysis)   
 [Programming](#programming)   
 [Generating figures](#generating-publication-quality-figures)    
-[Doing statistics](#statistical-analysis)      
+[Statistics](#statistical-analysis)      
 [fMRI](#doing-fmri)  
 [Literature search](#literature-search)  
 [Writing papers](#writing-papers)   
 [Meetings](#meetings-with-your-pi)     
-[Papers of special significance](#Papers)
+[Meta Neuro Papers](#Papers)
 ##
 ## Analysis 
 * Start with a clear and universal directory structure for organizing your analysis, data, figures, etc. [Here](http://nikola.me/folder_structure.html) is a template you can follow for a transparent directory structure.  
@@ -51,9 +51,11 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
 
 ##  Generating Publication Quality Figures
-* Data visualization has been made very easy with [matplotlib](https://matplotlib.org) and a library called [seaborn](http://seaborn.pydata.org/index.html)  
+* It is best to use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
 
-* Save your figures in svg, or eps. pngs do not scale well and are impossible to modify.
+* For data visualization, [matplotlib](https://matplotlib.org) in python and a library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures.
+
+* Save your figures in svg, or eps. pngs do not scale well.
 ##  Statistical Analysis
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentism written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
