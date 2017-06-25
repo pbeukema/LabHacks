@@ -53,6 +53,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Generating Publication Quality Figures
 * It is best to use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
 
+* Carefully consider the colors and colormaps of your figures. Consider color blind readers of your figures. Find out what people hate about the often used [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/). Read about different colormaps [here](https://matplotlib.org/users/colormaps.html) 
+
 * For data visualization, [matplotlib](https://matplotlib.org) in python and a library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures.
 
 * Save your figures in svg, or eps. pngs do not scale well.
