@@ -19,7 +19,7 @@ Use it for writing experimental code, scanner code, bash scripts and so on.
 
 * Use [jupyter notebooks](http://jupyter.readthedocs.io/en/latest/index.html) for development and for analysis pipelines. Install [Kyle Dunovan's](https://github.com/dunovank) [jupyter themes](https://github.com/dunovank/jupyter-themes) to make your notebooks pretty and work faster. 
 
-* Make an "autopilot" script for your analyses, so that figures (and even posters if you are feeling ambitious) are updated in real time while the data is collected. Write a [cron job](http://www.adminschoice.com/crontab-quick-reference) to execute an autopilot script that integrates newly collected data and updates analyses perhaps with an email summarizing the results sent to you or your advisor. You can find some autpilot examples [here](https://github.com/pbeukema/rsaRemap/blob/master/modmap_autopilot.py). 
+* Make an "autopilot" script for your analyses, so that figures (and even posters if you are feeling ambitious) are updated in real time while the data is collected. Write a [cron job](http://www.adminschoice.com/crontab-quick-reference) to execute an autopilot script that integrates newly collected data and updates analyses perhaps with an email summarizing the results sent to you or your advisor. You can find some autopilot examples [here](https://github.com/pbeukema/rsaRemap/blob/master/modmap_autopilot.py). 
 
 * Make a startup file for your jupyter notebooks that preloads modules like numpy and scipy to save you time and also so that your figures are always publication quality, from the get go, without modification. The config file can specify font sizes, legends, color themes etc.
 
