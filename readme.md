@@ -67,6 +67,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * As soon as possible, understand [bootstraping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) and [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)). [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI. 
 
+* Confused about why authors say prediction from a regression but without cross-validation, out of sample testing or a no noise ceiling?
+Tal Yarkoni provides some great insights [here](http://pilab.psy.utexas.edu/publications/Yarkoni_Westfall_PPS_in_press.pdf)
+
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), CMU statistics faculty, has written [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961). They are extremely useful. 
 
 * Are you still not using hierarchical Bayes? Everything is a trivial case of hierarchical Bayesian inference. Thomas Wiecki will show you the [way](http://twiecki.github.io/blog/2017/02/08/bayesian-hierchical-non-centered/). 
