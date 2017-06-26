@@ -106,8 +106,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ## Twitter is a great resource for identifying new papers, events, tips etc. 
 * [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, imaging (DSI/fMRI)
-* [@KordingLab](https://twitter.com/kordinglab)  neural data science, computational modeling, 
-* [@StatModeling](https://twitter.com/StatModeling)  statistics, hierarhical bayesian modeling, R
+* [@KordingLab](https://twitter.com/kordinglab)  neural data science, computational modeling
+* [@StatModeling](https://twitter.com/StatModeling)  statistics, hierarchical bayesian modeling, R
 * [@Neuro_Skeptic](https://twitter.com/Neuro_Skeptic)  neuroscience in general
 * [@NKriegeskorte](https://twitter.com/NKriegeskorte)  fMRI, RSA, deep learning
 * [@jakevdp](https://twitter.com/jakevdp)  python, data analysis, astrophysics
