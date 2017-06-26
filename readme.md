@@ -90,6 +90,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
 ##  Doing fMRI
+* Know your anatomy, Julian Caspers, a neuroradiologist, provided a gerat set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at OHBM 2017 
+
 * Organize your dataset using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large. 
 
 * If you can not write down the general linear model you are using from scratch and solve it in closed form, [learn how](http://www.brainvoyager.com/bvqx/doc/UsersGuide/StatisticalAnalysis/TheGeneralLinearModel.html).  
