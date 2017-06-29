@@ -102,7 +102,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Find articles before they are officially published on [arxiv](http://biorxiv.org/)
 
-* You can search the literature with [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/) & [Google-scholar](https://scholar.google.com)
+* You can search the literature with [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/) & [Google-scholar](https://scholar.google.com). Also, stay on top of your favorite authors' publications with Google-scholar's alerts!
 
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
 
