@@ -40,7 +40,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [Anaconda](https://www.continuum.io/downloads) provides a scientific distribution of python that enables high performance computing and analysis. 
 
-* Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html)- it will seriously save you a lot of time. 
+* Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html) - it will seriously save you a lot of time. 
 
 * Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), & [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Consider a mechanical keyboard so your labmates love you, then hotkey some more. 
 
