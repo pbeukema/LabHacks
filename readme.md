@@ -27,33 +27,35 @@ Use it for writing experimental code, scanner code, bash scripts and so on.
 ##  Programming 
 * Start using github. It is excellent for version control and for sharing (instead of having analysis_v4_p3.2_final.py you just have analysis.py). Other researchers can replicate exactly what you did. This will save you time, if someone emails you for example. 
 
-* You or your lab may be most familiar with Matlab. It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
+* Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
-* [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a tutorial for learning python. It consists of 52 exercises from installing Python (Exercise 0) to building a web game (Exercise 52). Everyone in our lab who learned python used this tutorial.
+* Want to learn Python? [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a great tutorial. 52 exercises from installing Python to building a web game. Everyone in our lab who learned python used this tutorial.
 
 * Need to sync files across your various lab computers/clusters and laptop you use at home and don't want to use Dropbox? Use [rsync](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) instead. e.g:
 ```bash
 rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]' --exclude='*' [local_dir] [remote_server]:[remote_dir]
 ```
 
-* Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to becoming a python data ninja.
+* Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
 
 * [Anaconda](https://www.continuum.io/downloads) provides a scientific distribution of python that enables high performance computing and analysis. 
 
 * Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html)- it will seriously save you a lot of time. 
 
-* Simulate data and make sure that your analysis works the way you think that it is working. 
-
 * Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), & [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Consider a mechanical keyboard so your labmates love you, then hotkey some more. 
 
 * Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). 
 
-* Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
+* Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert]
+(https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
+
+* Simulate data and make sure that your analysis works the way you think that it is working. 
+
 
 ##  Generating Publication Quality Figures
-* It is best to use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
+* Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
 
-* Carefully consider the colors and colormaps of your figures. Consider color blind readers. Find out what people hate about the [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/) which is sadly often used. Read about different colormaps [here](https://matplotlib.org/users/colormaps.html).
+* Carefully consider the colors and colormaps of your figures. How would color blind readers see your figures? Understand why people hate the [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/). Read about different colormaps [here](https://matplotlib.org/users/colormaps.html).
 
 * For data visualization, [matplotlib](https://matplotlib.org) in python and a library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures.
 
@@ -61,7 +63,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Statistical Analysis
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentism written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
-
 
 * Beware of p-values and null hypothesis significance testing in general. Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. [Here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) Andrew Gelman sheds light on ways to proceed. 
 
