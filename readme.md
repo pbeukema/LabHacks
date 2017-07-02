@@ -118,7 +118,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@NKriegeskorte](https://twitter.com/NKriegeskorte)  fMRI, RSA, deep learning
 * [@jakevdp](https://twitter.com/jakevdp)  python, data analysis, astrophysics
 * [@fonnesbeck](https://twitter.com/fonnesbeck) statistical analysis in python
-* [@bioRxiv neursci](https://twitter.com/biorxiv_neursci) the Rxiv for neuro
+* [@bioRxiv Neuroscience](https://twitter.com/biorxiv_neursci) the Rxiv for neuro
 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
