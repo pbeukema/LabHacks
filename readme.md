@@ -1,6 +1,6 @@
 ### Advice on...
 
-[Analysis](#analysis)   
+[Analysis](#data-analysis)   
 [Programming](#programming)   
 [Generating figures](#generating-publication-quality-figures)    
 [Statistics](#statistical-analysis)      
@@ -13,7 +13,7 @@
 
 ##
 
-## Analysis 
+## Data Analysis 
 * Start with a clear and universal directory structure for organizing your analysis, data, figures, etc. [Here](http://nikola.me/folder_structure.html) is a template you can follow for a transparent directory structure.  
 
 * [Atom](https://atom.io/) is very powerful and free text editor that integrates seamlessly with github. 
