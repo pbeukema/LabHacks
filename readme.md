@@ -112,6 +112,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You can search the literature with [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/) & [Google-scholar](https://scholar.google.com). Now is a good time to make your own google scholar account if you don't have one. Also, stay on top of your favorite authors' publications with [Google-scholar's alerts](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)!
 
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
+
 ## Grant writing
 * Be aware of what people have currently received funding for in your field. To do so make use of [nih reporter]https://projectreporter.nih.gov/reporter.cfm
 
