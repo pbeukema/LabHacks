@@ -1,6 +1,6 @@
 ### Advice on...
 
-[Analysis](#data-analysis)   
+[Data Analysis](#data-analysis)   
 [Programming](#programming)   
 [Generating figures](#generating-publication-quality-figures)    
 [Statistics](#statistical-analysis)      
