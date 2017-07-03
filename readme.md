@@ -7,7 +7,7 @@
 [fMRI](#doing-fmri)  
 [Literature search](#literature-search)  
 [Writing papers](#writing-papers)   
-[Grant Writing](#Grant-writing)  
+[Grant Writing](#grant-writing)  
 [Meetings](#meetings-with-your-pi)     
 [Meta Neuro Papers](#Papers)
 
