@@ -114,7 +114,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
 
 ## Grant writing
-* Be aware of what grants have been funded in your field. To do so make use of [nih reporter](https://projectreporter.nih.gov/reporter.cfm)
+* Be aware of what grants have been funded in your field, by searching [nih reporter](https://projectreporter.nih.gov/reporter.cfm). This will tell you what was funded, the program officer, the PI, etc.
 
 ## Twitter is a great resource for identifying new papers, events, tips etc. 
 * [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, imaging (DSI/fMRI)
