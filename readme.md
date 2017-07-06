@@ -107,13 +107,15 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [PyCortex](https://github.com/gallantlab/pycortex) provides excellent visualization of your statistical maps projected on the surface and dynamically generated in your browser. 
 ##  Literature Search
-* Before you start down some major project that you will be committed to for years, understand the current literature in your topic. Understand very clearly why you are going to do what you are going to do. 
+* You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
 
 * Find articles before they are officially published on [arxiv](http://biorxiv.org/)
 
-* You can search the literature with [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/) & [Google-scholar](https://scholar.google.com). Now is a good time to make your own google scholar account if you don't have one. Also, stay on top of your favorite authors' publications with [Google-scholar's alerts](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)!
+* You can search the literature with [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/) & [Google-scholar](https://scholar.google.com). Now is a good time to make your own google scholar account if you don't have one. Also, stay on top of your favorite authors' publications with [Google-scholar's alerts](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en).
 
-* You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
+* Before you start down some major project that you will be committed to for years, understand the current literature in your topic. Understand very clearly why you are going to do what you are going to do. 
+
+
 
 ## Grant writing
 * Be aware of what grants have been funded in your field, by searching [nih reporter](https://projectreporter.nih.gov/reporter.cfm). This will tell you what was funded, the program officer, the PI, etc.
