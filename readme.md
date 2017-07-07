@@ -31,7 +31,7 @@ Use it for writing experimental code, scanner code, bash scripts and so on.
 * Getting into deep learning? [Here](https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5) is a similar reference for machine learning (ML) and deep learning. 
 
 ##  Programming 
-* Start using github. It is excellent for version control and for sharing (instead of having analysis_v4_p3.2_final.py you just have analysis.py). Other researchers can replicate exactly what you did. This will save you time, if someone emails you for example. 
+* Start using github. It is excellent for version control and for sharing (instead of having analysis_v5_final_reallyfinal_thistime.py you just have analysis.py). Other researchers can replicate exactly what you did. This will save you time, if someone emails you for example. 
 
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
@@ -59,6 +59,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Learn how to simulate data and make sure that your analysis works the way you think that it is working. 
 
+* Use [Ubuntu](https://help.ubuntu.com/lts/installation-guide/)
 
 ##  Generating Publication Quality Figures
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
