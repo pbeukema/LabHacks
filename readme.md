@@ -118,6 +118,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Before you start down some major project that you will be committed to for years, understand the current literature in your topic. Understand very clearly why you are going to do what you are going to do. 
 
+* Be skeptical of author's use of the word prediction, often what they really mean is in-sample linear correlation, and not what it actually means, out-of-sample generalization of a model. 
 
 
 ## Grant writing
