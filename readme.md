@@ -59,8 +59,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Learn how to simulate data and make sure that your analysis works the way you think that it is working. 
 
-* Use [Ubuntu](https://help.ubuntu.com/lts/installation-guide/)
+* A lot of software runs on either [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) or OSX but not Windows. So consider installing Linux
 
+* Understand the basics of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
 ##  Generating Publication Quality Figures
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
 
