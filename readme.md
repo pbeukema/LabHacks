@@ -17,7 +17,7 @@
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github. 
-Use it for writing experimental text, markup, code, code, scripts, etc. 
+Use it for writing text, markup, code, code, scripts, etc. 
 
 * Use [jupyter notebooks](http://jupyter.readthedocs.io/en/latest/index.html) for development and for analysis pipelines. Install [Kyle Dunovan's](https://github.com/dunovank) [jupyter themes](https://github.com/dunovank/jupyter-themes) to make your notebooks pretty and work faster. 
 
