@@ -5,12 +5,13 @@
 [Making figures nice](#generating-publication-quality-figures)    
 [Statistics](#statistical-analysis)      
 [fMRI](#doing-fmri)  
+[ePhys](#analyzing-ephys-data)  
 [Literature search](#literature-search)  
 [Writing papers](#writing-papers)   
 [Grant Writing](#grant-writing)  
 [Meetings](#meetings-with-your-pi)     
 [Meta Neuro Papers](#Papers)
-
+https://github.com/KordingLab/spykes
 ##
 
 ## Data Analysis 
@@ -114,6 +115,11 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Understand the difference between [univariate and multivariate approaches](https://arxiv.org/pdf/1603.01857.pdf) to fMRI 
 
 * [PyCortex](https://github.com/gallantlab/pycortex) provides excellent visualization of your statistical maps projected on the surface and dynamically generated in your browser. 
+
+##  Analyzing ephys data
+Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
+
+
 ##  Literature Search
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed 
 
