@@ -53,8 +53,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. It is not cheating. 
 
-* Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert]
-(https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
+* Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
 
 * Learn how to properly simulate data and make sure that your analysis works the way you think that it is working. 
 
