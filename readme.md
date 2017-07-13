@@ -6,7 +6,7 @@
 [Statistics](#statistical-analysis)      
 [fMRI](#doing-fmri)  
 [ePhys](#analyzing-ephys-data)  
-[Literature search](#literature-search)  
+[Lit search](#literature-search)  
 [Writing papers](#writing-papers)   
 [Grant Writing](#grant-writing)  
 [Meetings](#meetings-with-your-pi)     
