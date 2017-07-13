@@ -11,7 +11,7 @@
 [Grant Writing](#grant-writing)  
 [Meetings](#meetings-with-your-pi)     
 [Meta Neuro Papers](#Papers)
-https://github.com/KordingLab/spykes
+
 ##
 
 ## Data Analysis 
