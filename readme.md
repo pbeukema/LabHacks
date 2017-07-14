@@ -10,7 +10,7 @@
 [Writing papers](#writing-papers)   
 [Grant Writing](#grant-writing)  
 [Meetings](#meetings-with-your-pi)     
-[Meta Neuro Papers](#Papers)
+[Meta Neuro Papers](#Papers) 
 [Survival Guides](#Survival-Guides)
 
 ## 
