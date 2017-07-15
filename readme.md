@@ -14,7 +14,8 @@
 [Survival Guides](#survival-guides)
 
 ## 
-
+All the resources provided here point you to open source and free software. 
+##
 ## Data Analysis 
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
 
@@ -33,6 +34,10 @@ Use it for writing text, markup, code, code, scripts, etc.
 
 ##  Programming 
 * Start using github. It is excellent for version control and for sharing. Consider how many times you have written a script called analysis_v5_final_reallyfinal_thistime_final.py. With github you will just have analysis.py. With github, other researchers can replicate exactly what you did. This will ultimately save you time, if someone emails you for example. 
+
+* A lot of open software that is developed for neuroscience runs on either Linux or OSX but not Windows. So consider installing Linux. [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) is a popular distribution that has extensive support if you get stuck.
+
+* After installing Linux, learn to [master the terminal](https://github.com/jlevy/the-art-of-command-line)
 
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
@@ -58,8 +63,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
 
 * Learn how to properly simulate data and make sure that your analysis works the way you think that it is working. 
-
-* A lot of open software that is developed for neuroscience runs on either [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) or OSX but not on Windows. So consider installing Linux. Ubuntu is a popular distribution that is makes installation a breeze. 
 
 * Understand the basics of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
 
