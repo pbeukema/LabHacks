@@ -105,6 +105,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh. 
 
+* Publish your paper to one of the [arXivs](http://www.biorxiv.org/submit-a-manuscript). If your PI doesn't support that, convince them. 
+
 * Share your work with your friends as well as your enemies, the latter might give you even better criticism.
 
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
