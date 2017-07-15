@@ -75,6 +75,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Save your figures in svg, or eps. pngs do not scale well.
 
 ##  Statistical Analysis
+* Start [here](http://students.brown.edu/seeing-theory/): Make sure that all of the concepts on this page are transparent to you.
+
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentism written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
 
