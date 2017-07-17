@@ -166,5 +166,5 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown. 
 
 ##  Survival Guides
-* Finally have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/), written by Andrej Karpathy, a stanford CS Ph.D, and the current director of AI at Tesla.
+* Finally have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, written by Andrej Karpathy, a stanford CS Ph.D, and the current director of AI at Tesla.
 
