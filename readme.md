@@ -41,18 +41,16 @@ Use it for writing text, markup, code, code, scripts, etc.
 
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
-* Want to learn Python? [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a great tutorial. 52 exercises from installing Python to building a web app. Everyone in our lab who learned python used this tutorial.
+* Want to learn Python? 
+  * Start here with [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a great tutorial. 52 exercises from installing Python to building a web app. Everyone in our lab who learned python used this tutorial.
+  * Install [Anaconda](https://www.continuum.io/downloads) which is a scientific distribution of python that enables high performance computing and analysis. 
+  * Learn numpy with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
+  * Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
 
 * Need to sync files across your various lab computers/clusters and laptop you use at home and don't want to use Dropbox? Use [rsync](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) instead. e.g:
 ```bash
 rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]' --exclude='*' [local_dir] [remote_server]:[remote_dir]
 ```
-
-* Learn numpy with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
-
-* Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
-
-* [Anaconda](https://www.continuum.io/downloads) provides a scientific distribution of python that enables high performance computing and analysis. 
 
 * Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html) - it will seriously save you a lot of time. 
 
@@ -64,16 +62,18 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Learn how to properly simulate data and make sure that your analysis works the way you think that it is working. 
 
-* Understand the basics of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
+* A basic understanding of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b) is useful for optimizing larger scale projects. 
 
 ##  Generating Publication Quality Figures
+* If you followed the programming advice above, you are now convinced that Python is your favorite langauge. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a layer ad library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures. 
+
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time. 
 
 * Carefully consider the colors and colormaps of your figures. How would color blind readers interpret your figures? 
 
 * Understand why people hate the [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/). Read about different colormaps [here](https://matplotlib.org/users/colormaps.html).
 
-* For data visualization, [matplotlib](http://pbpython.com/effective-matplotlib.html) in python and a library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures. 
+
 
 * Save your figures in svg, or eps. pngs do not scale well.
 
