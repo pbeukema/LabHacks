@@ -83,10 +83,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
 
-* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research and cognitive neuroscience. 
-  * Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. 
-  * See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. 
-  * Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
+* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research and cognitive neuroscience. Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
 
 * As soon as possible, understand 
   * [bootstraping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), 
