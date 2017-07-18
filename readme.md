@@ -84,15 +84,15 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
 
 * Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research and cognitive neuroscience. 
- * Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. 
- * See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. 
- *Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
+  * Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. 
+  * See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. 
+  * Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
 
 * As soon as possible, understand 
- * [bootstraping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), 
- * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) and 
- * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)). 
- * [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI. 
+  * [bootstraping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), 
+  * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) and 
+  * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)). 
+  * [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI. 
 
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
