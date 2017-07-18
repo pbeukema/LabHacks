@@ -78,18 +78,16 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Save your figures in svg, or eps. pngs do not scale well.
 
 ##  Statistical Analysis
-* Start [here](http://students.brown.edu/seeing-theory/): Make sure that all of the concepts on this page are transparent to you.
+* If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
 
 * Learn to love Bayesian statistics, if you don't already.
-[This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentism written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
+[This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
 
-* Beware of p-values and null hypothesis significance testing (NHST). Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
-
-
+* Beware of p-values and null hypothesis significance testing (NHST) which is currently the de facto standard in neurobio research and cognitive neuroscience. Read [this](http://ejwagenmakers.com/2007/pValueProblems.pdf) paper for some of the problems with p-values if you are not familiar with the controversy. See [here](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) and [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) for more detail. Confused about what to do now? Andrew Gelman sheds some light [here](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and also [here](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) on ways to proceed.
 
 * As soon as possible, understand [bootstraping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) and [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)). [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI. 
 
-* [Rob Kass](http://www.stat.cmu.edu/~kass/),@CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
+* [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
 * Know what the chris rock effect is in statistics? Expand your statistical lexicon [here](http://andrewgelman.com/2009/05/24/handy_statistic/).
 
@@ -116,11 +114,11 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
 ##  Doing fMRI
-* Know your neuroanatomy, Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at OHBM 2017 
+* Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. 
 
-* Organize your dataset using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large. 
+* Standardize your imaging data set using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large. 
 
-* If you can not write down the general linear model you are using from scratch and solve it in closed form, [learn how](http://www.brainvoyager.com/bvqx/doc/UsersGuide/StatisticalAnalysis/TheGeneralLinearModel.html).  
+* As a benchmark, you should be able to write down the [general linear model](http://www.brainvoyager.com/bvqx/doc/UsersGuide/StatisticalAnalysis/TheGeneralLinearModel.html) you are using from scratch and solve it in closed form. 
 
 * Understand the difference between [univariate and multivariate approaches](https://arxiv.org/pdf/1603.01857.pdf) to fMRI 
 
@@ -139,7 +137,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Before you start down some major project that you will be committed to for years, understand the current literature in your topic. Understand very clearly why you are going to do what you are going to do. 
 
-* Be skeptical of author's use of the word prediction, often what they really mean is in-sample linear correlation, and not what it actually means, out-of-sample generalization of a model. [Here](http://pilab.psy.utexas.edu/publications/Yarkoni_Westfall_PPS_in_press.pdf) Tal Yarkoni provides some insights.
+* Be skeptical of author's use of the word prediction, often what they really mean is in-sample linear correlation, and not what prediction actually means, out-of-sample generalization of a model. [Here](http://pilab.psy.utexas.edu/publications/Yarkoni_Westfall_PPS_in_press.pdf) Tal Yarkoni provides some insights.
 
 
 ## Grant writing
@@ -158,6 +156,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
 * [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
+
 ##  Meetings 
 * Never show up empty handed to meetings with your PI.
 * Have a clear objective to all meetings that everyone else knows as well.
