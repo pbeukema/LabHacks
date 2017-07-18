@@ -42,7 +42,7 @@ Use it for writing text, markup, code, code, scripts, etc.
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
 * Want to learn Python? 
-  * Start here with [Learn Python the Hard Way](https://learnpythonthehardway.org/book/) is a great tutorial. 52 exercises from installing Python to building a web app. Everyone in our lab who learned python used this tutorial.
+  * Start here with [Learn Python the Hard Way](https://learnpythonthehardway.org/book/). 52 exercises spanning installing Python to building a web app. Everyone in our lab who learned python used this tutorial.
   * Install [Anaconda](https://www.continuum.io/downloads) which is a scientific distribution of python that enables high performance computing and analysis. 
   * Learn numpy with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
   * Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
