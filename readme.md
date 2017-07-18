@@ -14,7 +14,7 @@
 [Survival Guides](#survival-guides)
 
 ## 
-All links on this page point you to open source and free software. 
+All software links on this page are open source, and all other resources are free. 
 
 ## Data Analysis 
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
