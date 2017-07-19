@@ -148,14 +148,14 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Be aware of what grants have been funded in your field, by searching [nih reporter](https://projectreporter.nih.gov/reporter.cfm). This will tell you what was funded, the program officer, the PI, etc.
 
 ## Twitter is a great resource for identifying new papers, events, tips etc. 
-* [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, imaging (DSI/fMRI)
+* [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, theoretical neuroscience, imaging (DSI/fMRI)
 * [@KordingLab](https://twitter.com/kordinglab)  neural data science, computational modeling
 * [@StatModeling](https://twitter.com/StatModeling)  statistics, hierarchical bayesian modeling, R
-* [@Neuro_Skeptic](https://twitter.com/Neuro_Skeptic)  neuroscience in general
 * [@NKriegeskorte](https://twitter.com/NKriegeskorte)  fMRI, RSA, deep learning
 * [@jakevdp](https://twitter.com/jakevdp)  python, data analysis, astrophysics
 * [@fonnesbeck](https://twitter.com/fonnesbeck) statistical analysis in python
 * [@bioRxiv Neuroscience](https://twitter.com/biorxiv_neursci) the Rxiv for neuro
+* [@Neuro_Skeptic](https://twitter.com/Neuro_Skeptic)  neuroscience in general
 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
