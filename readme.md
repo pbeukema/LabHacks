@@ -1,17 +1,16 @@
-### Advice on...
 
-[Data Analysis](#data-analysis)   
-[Programming](#programming)   
-[Making figures nice](#generating-publication-quality-figures)    
-[Statistics](#statistical-analysis)      
-[fMRI](#doing-fmri)  
-[Ephys](#analyzing-ephys-data)  
-[Lit search](#literature-search)  
-[Writing papers](#writing-papers)   
-[Grant Writing](#grant-writing)  
-[Meetings](#meetings-with-your-pi)     
-[Meta Neuro Papers](#papers)  
-[Survival Guides](#survival-guides)
+- [Data Analysis](#data-analysis)   
+- [Programming](#programming)   
+- [Making figures nice](#generating-publication-quality-figures)    
+- [Statistics](#statistical-analysis)      
+- [fMRI](#doing-fmri)  
+- [Ephys](#analyzing-ephys-data)  
+- [Lit search](#literature-search)  
+- [Writing papers](#writing-papers)   
+- [Grant Writing](#grant-writing)  
+- [Meetings](#meetings-with-your-pi)     
+- [Meta Neuro Papers](#papers)  
+- [Survival Guides](#survival-guides)
 
 ## 
 All software links on this page are open source, and all other resources are free. 
