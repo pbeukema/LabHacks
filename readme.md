@@ -36,7 +36,7 @@ Use it for writing text, markup, code, code, scripts, etc.
 
 * A lot of open software that is developed for neuroscience runs on either Linux or OSX but not Windows. So consider installing Linux. [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) is a popular distribution that has extensive support if you get stuck.
 
-* After installing Linux, learn to [master the terminal](https://github.com/jlevy/the-art-of-command-line)
+* After installing Linux, learn the [art of the command line](https://github.com/jlevy/the-art-of-command-line)
 
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab. 
 
@@ -51,11 +51,9 @@ Use it for writing text, markup, code, code, scripts, etc.
 rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]' --exclude='*' [local_dir] [remote_server]:[remote_dir]
 ```
 
-* Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html) - it will seriously save you a lot of time. 
+* Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/), & [bash](https://ss64.com/bash/syntax-keyboard.html). Consider a mechanical keyboard so your labmates love you, then hotkey some more. 
 
-* Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), & [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Consider a mechanical keyboard so your labmates love you, then hotkey some more. 
-
-* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. It is not cheating. 
+* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. 
 
 * Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac. 
 
