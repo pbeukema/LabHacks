@@ -1,17 +1,17 @@
-### Advice on...
 
-[Data Analysis](#data-analysis)   
-[Programming](#programming)   
-[Making figures nice](#generating-publication-quality-figures)    
-[Statistics](#statistical-analysis)      
-[fMRI](#doing-fmri)  
-[Ephys](#analyzing-ephys-data)  
-[Lit search](#literature-search)  
-[Writing papers](#writing-papers)   
-[Grant Writing](#grant-writing)  
-[Meetings](#meetings-with-your-pi)     
-[Meta Neuro Papers](#papers)  
-[Survival Guides](#survival-guides)
+
+-- [Data Analysis](#data-analysis)   
+-- [Programming](#programming)   
+-- [Making figures nice](#generating-publication-quality-figures)    
+-- [Statistics](#statistical-analysis)      
+-- [fMRI](#doing-fmri)  
+-- [Ephys](#analyzing-ephys-data)  
+-- [Lit search](#literature-search)  
+-- [Writing papers](#writing-papers)   
+-- [Grant Writing](#grant-writing)  
+-- [Meetings](#meetings-with-your-pi)     
+-- [Meta Neuro Papers](#papers)  
+-- [Survival Guides](#survival-guides)
 
 ##
 All software links on this page are open source, and all other resources are free.
@@ -37,7 +37,7 @@ Use it for writing text, markup, code, code, scripts, etc.
 
 * A lot of open software that is developed for neuroscience runs on either Linux or OSX but not Windows. So consider installing Linux. [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) is a popular distribution that has extensive support if you get stuck.
 
-* After installing Linux, learn to [master the terminal](https://github.com/jlevy/the-art-of-command-line)
+* After installing Linux, learn the [art of the command line](https://github.com/jlevy/the-art-of-command-line)
 
 * Do you use Matlab? It is worth considering a switch to [Python](https://www.python.org/). Python offers simpler syntax, enables system wide interfacing, is open source, free and for these reasons is being used by more and more scientists. Replication is far easier with Python than Matlab.
 
@@ -52,11 +52,9 @@ Use it for writing text, markup, code, code, scripts, etc.
 rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]' --exclude='*' [local_dir] [remote_server]:[remote_dir]
 ```
 
-* Become a pro at [bash shortcuts](https://ss64.com/bash/syntax-keyboard.html) - it will seriously save you a lot of time.
+* Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) & and  [bash](https://ss64.com/bash/syntax-keyboard.html). Consider a mechanical keyboard so your labmates love you, then hotkey some more.
 
-* Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), & [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Consider a mechanical keyboard so your labmates love you, then hotkey some more.
-
-* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. It is not cheating.
+* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. 
 
 * Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac.
 
@@ -134,14 +132,17 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
 
 ##  Biophysical/molecular modeling
-* [MCell](http://www.mcell.org/index.html) and [NEURON](https://www.neuron.yale.edu/neuron/courses) mo
-* [MMBioS](http://mmbios.org/index.php/software#anm)
+* Start [here]((http://mmbios.org/index.php/software#anm)) for a variety of software resources on realistic cellular, especially [MCell](http://www.mcell.org/index.html) and [NEURON](https://www.neuron.yale.edu/neuron/courses).
+
 * [CellBlender](https://github.com/mcellteam/cellblender) for visualization and simulation of realistic 3D cellular models.
+
 * Keep a digital lab notebook with [Benchling](https://benchling.com/academic), free for academics.
-* [ApE](http://biologylabs.utah.edu/jorgensen/wayned/ape/) for creating plasmid maps/visualization of restriction sites and planning experiments.
+
+* Try [ApE](http://biologylabs.utah.edu/jorgensen/wayned/ape/) for creating plasmid maps/visualization of restriction sites and planning experiments.
+
 * Recreate expensive hardware on the cheap with [labrigger](http://labrigger.com/blog/)
-* Free and easy to use image processing software [Fiji](https://fiji.sc/)
-* Thanks to Annie Homan for these contributions.
+
+* [Fiji](https://fiji.sc/) is a free and easy to use image processsor.
 
 ##  Literature Search
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed
@@ -183,3 +184,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Finally have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, written by Andrej Karpathy, a stanford CS Ph.D, and the current director of AI at Tesla.
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
+
+## Acknoledgments
+Thanks to contributions from Ran Liu, Annie Homan and Rory Flemming for making this page more useful. 
+
