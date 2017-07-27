@@ -133,9 +133,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
 
 ##  Biophysical and molecular modeling
-* Start [here]((http://mmbios.org/index.php/software#anm)) for a variety of software resources on realistic cellular, especially [MCell](http://www.mcell.org/index.html) and [NEURON](https://www.neuron.yale.edu/neuron/courses).
+* Start [here](http://mmbios.org/index.php/software#anm) for a variety of software resources on realistic cellular, especially [MCell](http://www.mcell.org/index.html) and [NEURON](https://www.neuron.yale.edu/neuron/courses).
 
-* [CellBlender](https://github.com/mcellteam/cellblender) for visualization and simulation of realistic 3D cellular models.
+* Check out [CellBlender](https://github.com/mcellteam/cellblender) for visualization and simulation of realistic 3D cellular models.
 
 * Keep a digital lab notebook with [Benchling](https://benchling.com/academic), free for academics.
 
