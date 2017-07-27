@@ -6,7 +6,7 @@
 * [Statistics](#statistical-analysis)      
 * [fMRI](#doing-fmri)  
 * [Ephys](#analyzing-ephys-data)  
-* [Biophysical modeling](biophysical-and-molecular-modeling) 
+* [Biophysical modeling](#biophysical-and-molecular-modeling) 
 * [Lit search](#literature-search)  
 * [Writing papers](#writing-papers)   
 * [Grant Writing](#grant-writing)  
