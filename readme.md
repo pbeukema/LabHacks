@@ -109,6 +109,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
+  * [Bayesian Spectacles](https://www.bayesianspectacles.org)
+  
 ##  Writing Papers
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
