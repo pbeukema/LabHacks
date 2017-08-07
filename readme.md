@@ -72,8 +72,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Understand why people hate the [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/). Read about different colormaps [here](https://matplotlib.org/users/colormaps.html).
 
-
-
 * Save your figures in svg, or eps. pngs do not scale well.
 
 ##  Statistical Analysis
@@ -94,7 +92,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Understand the bias/variance [trade off](https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/)
 
-* Know what the chris rock effect is in statistics? Expand your statistical lexicon [here](http://andrewgelman.com/2009/05/24/handy_statistic/).
+* Do you know what the chris rock effect is in statistics? Expand your statistical lexicon [here](http://andrewgelman.com/2009/05/24/handy_statistic/).
 
 * Are you still not using hierarchical Bayes? Everything is a trivial case of hierarchical Bayesian inference. Thomas Wiecki will show you the [way](http://twiecki.github.io/blog/2017/02/08/bayesian-hierchical-non-centered/).
 
@@ -109,7 +107,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
-  * [Bayesian Spectacles](https://www.bayesianspectacles.org)
+  * Wagenmakers new blog: [Bayesian Spectacles](https://www.bayesianspectacles.org)
   
 ##  Writing Papers
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
@@ -184,7 +182,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown.
 
 ##  Survival Guides
-* Finally have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, written by Andrej Karpathy, a stanford CS Ph.D, and the current director of AI at Tesla.
+* Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 
