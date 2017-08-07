@@ -188,6 +188,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 
-## Acknoledgments
+## Acknowledgments
 Thanks to contributions from Ran Liu, Annie Homan and Rory Flemming for making this page more useful. 
 
