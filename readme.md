@@ -64,7 +64,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * A basic understanding of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b) is useful for optimizing larger scale projects.
 
 ##  Generating Publication Quality Figures
-* If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a layer ad library called [seaborn](http://seaborn.pydata.org/index.html) are very useful tools to generate publication quality figures.
+* If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
 
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time.
 
