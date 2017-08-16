@@ -129,6 +129,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [PyCortex](https://github.com/gallantlab/pycortex) provides excellent visualization of your statistical maps projected on the surface and dynamically generated in your browser.
 
+* Improve your understanding of anatomy with the web based user interface for exploring the human brain called [Cortical Explorer](http://corticalexplorer.com). 
+
 ##  Analyzing Ephys data
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
 
