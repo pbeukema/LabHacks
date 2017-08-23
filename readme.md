@@ -90,6 +90,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
+* There are many texts on data analysis, but Cosma Shalizi offers a unique perspective in this [textbook](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf)
+
 * Understand the bias/variance [trade off](https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/)
 
 * Do you know what the chris rock effect is in statistics? Expand your statistical lexicon [here](http://andrewgelman.com/2009/05/24/handy_statistic/).
