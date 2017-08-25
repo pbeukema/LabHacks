@@ -188,7 +188,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown.
 
-##  Survival Guides
+## Guides
+* Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course 
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
