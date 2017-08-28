@@ -196,4 +196,4 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 
 ## Acknowledgments
-Thanks to contributions from Ran Liu, Annie Homan and Rory Flemming for making this page more useful.
+Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.
