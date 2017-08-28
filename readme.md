@@ -6,7 +6,7 @@
 * [Statistics](#statistical-analysis)      
 * [fMRI](#doing-fmri)  
 * [Ephys](#analyzing-ephys-data)  
-* [Biophysical modeling](#biophysical-and-molecular-modeling) 
+* [Biophysical modeling](#biophysical-and-molecular-modeling)
 * [Lit search](#literature-search)  
 * [Writing papers](#writing-papers)   
 * [Grant Writing](#grant-writing)  
@@ -55,7 +55,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) & and  [bash](https://ss64.com/bash/syntax-keyboard.html). Consider a mechanical keyboard so your labmates love you, then hotkey some more.
 
-* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow. 
+* Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow.
 
 * Access anything or anywhere on your computer with minimal effort using Keyboard launchers like [Albert](https://github.com/albertlauncher/albert) for linux and [Alfred](https://www.alfredapp.com/) for mac.
 
@@ -65,6 +65,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ##  Generating Publication Quality Figures
 * If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
+* If you still need to use matlab try [gramm toolbox](https://github.com/piermorel/gramm). It allows to quickly create complex, publication-quality figures in Matlab, and is inspired by R's ggplot2 library. Its inspiration is excellent book *The Grammar of Graphics*,  by Leland Wilkinson (gramm stands for GRAMmar of graphics for Matlab)
 
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time.
 
@@ -110,7 +111,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
   * Wagenmakers new blog: [Bayesian Spectacles](https://www.bayesianspectacles.org)
-  
+
 ##  Writing Papers
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
@@ -121,7 +122,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
 
-* If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting. 
+* If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
 
 ##  Doing fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference.
@@ -134,7 +135,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [PyCortex](https://github.com/gallantlab/pycortex) provides excellent visualization of your statistical maps projected on the surface and dynamically generated in your browser.
 
-* Improve your understanding of anatomy with the web based user interface for exploring the human brain called [Cortical Explorer](http://corticalexplorer.com). 
+* Improve your understanding of anatomy with the web based user interface for exploring the human brain called [Cortical Explorer](http://corticalexplorer.com).
 
 ##  Analyzing Ephys data
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
@@ -189,11 +190,10 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown.
 
 ## Guides
-* Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course 
+* Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 
 ## Acknowledgments
-Thanks to contributions from Ran Liu, Annie Homan and Rory Flemming for making this page more useful. 
-
+Thanks to contributions from Ran Liu, Annie Homan and Rory Flemming for making this page more useful.
