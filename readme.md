@@ -65,13 +65,14 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ##  Generating Publication Quality Figures
 * If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
-* If you still need to use matlab try [gramm toolbox](https://github.com/piermorel/gramm). It allows to quickly create complex, publication-quality figures in Matlab, and is inspired by R's ggplot2 library. Its inspiration is excellent book *The Grammar of Graphics*,  by Leland Wilkinson (gramm stands for GRAMmar of graphics for Matlab)
 
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time.
 
 * Carefully consider the colors and colormaps of your figures. How would color blind readers interpret your figures?
 
 * Understand why people hate the [jetmap colormap](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/). Read about different colormaps [here](https://matplotlib.org/users/colormaps.html).
+
+* If you use Maltab, try out the [gramm toolbox](https://github.com/piermorel/gramm), inspired by R's ggplot2. 
 
 * Save your figures in svg, or eps. pngs do not scale well.
 
