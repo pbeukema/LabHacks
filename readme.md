@@ -134,6 +134,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Understand the difference between [univariate and multivariate approaches](https://arxiv.org/pdf/1603.01857.pdf) to fMRI
 
+* Next learn [representational similarity analysis](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005508) & the related [crossnobis](https://arxiv.org/ftp/arxiv/papers/1608/1608.02027.pdf) distance measure, a powerful framework that can bridge behavior, imaging, and computational models.  
+
+
 * [PyCortex](https://github.com/gallantlab/pycortex) provides excellent visualization of your statistical maps projected on the surface and dynamically generated in your browser.
 
 * Improve your understanding of anatomy with the web based user interface for exploring the human brain called [Cortical Explorer](http://corticalexplorer.com).
@@ -178,6 +181,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@fonnesbeck](https://twitter.com/fonnesbeck) statistical analysis in python
 * [@bioRxiv Neuroscience](https://twitter.com/biorxiv_neursci) the Rxiv for neuro
 * [@Neuro_Skeptic](https://twitter.com/Neuro_Skeptic)  neuroscience in general
+* [@BLAMlab](https://twitter.com/blamlab?lang=en) stroke recovery, motor control
+* [@diedrichsenlab](https://twitter.com/diedrichsenlab) computational neuroimaging   
 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
