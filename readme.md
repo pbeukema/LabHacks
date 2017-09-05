@@ -13,6 +13,7 @@
 * [Meetings](#meetings-with-your-pi)     
 * [Meta Neuro Papers](#papers)  
 * [Survival Guides](#survival-guides)
+* [Science Blogs](#science-blogs)
 
 ##
 All software links on this page are open source, and all other resources are free.
@@ -204,5 +205,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 * [Know when and when not to say No](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
 
+## Science blogs
+* Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
+
 ## Acknowledgments
-Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.
+Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.\
+
