@@ -18,7 +18,7 @@
 ##
 All software links on this page are open source, and all other resources are free.
 
-## Data Analysis
+## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
@@ -66,7 +66,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * A basic understanding of [data structures](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b) is useful for optimizing larger scale projects.
 
-##  Generating Publication Quality Figures
+##  Generating publication quality figures
 * If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
 
 * Use whatever software you are using to get the figure as close to final as possible. Sometimes it is necessary to do some post edits in illustrator/inkscape but with diligent coding, you can usually avoid this, which will ultimately save you time.
@@ -79,7 +79,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Save your figures in svg, or eps. pngs do not scale well.
 
-##  Statistical Analysis
+##  Statistical analysis
 * If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
 
 * Learn to love Bayesian statistics, if you don't already.
@@ -116,7 +116,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
   * Wagenmakers new blog: [Bayesian Spectacles](https://www.bayesianspectacles.org)
 
-##  Writing Papers
+##  Writing papers
 * See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
 
@@ -144,7 +144,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Improve your understanding of anatomy with the web based user interface for exploring the human brain called [Cortical Explorer](http://corticalexplorer.com).
 
-##  Analyzing Ephys data
+##  Analyzing ephys data
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
 
 ##  Biophysical and molecular modeling
@@ -160,7 +160,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [Fiji](https://fiji.sc/) is a free and easy to use image processsor.
 
-##  Literature Search
+##  Literature search
 * You will need a citation manager early on, [PaperPile](https://paperpile.com) is a good one that is well integrated with Pubmed
 
 * Find articles before they are officially published on [arxiv](http://biorxiv.org/)
@@ -209,5 +209,5 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
 
 ## Acknowledgments
-Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.\
+Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.
 
