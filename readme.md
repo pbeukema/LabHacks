@@ -15,8 +15,6 @@
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
 
-##
-All software links on this page are open source.
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
