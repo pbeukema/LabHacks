@@ -122,6 +122,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Publish your paper to one of the [arXivs](http://www.biorxiv.org/submit-a-manuscript). If your PI doesn't support that, convince them.
 
+* If you are frustrated with writing, read [this](http://lithub.com/how-academics-survive-the-writing-grind-some-anecdotal-advice/)
 * Share your work with your friends as well as your enemies, the latter might give you even better criticism.
 
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
