@@ -85,9 +85,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
 
 * Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research, cognitive neuroscience and biomedical research. 
-
  * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
-
  * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
  * Ways to proceed by Andrew Geleman:  [1](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) [2](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) [3](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) [4](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) 
 
@@ -96,7 +94,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalizing your dataset which you probably want)
   * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)) -- easily gets you a null distribution, which is sometimes hard to analytically derive in closed form)
   * [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI.
-  * 
+   
   
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
