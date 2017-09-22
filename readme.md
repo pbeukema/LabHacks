@@ -89,7 +89,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
  * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
  * Ways to proceed by Andrew Geleman:  [1](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) [2](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) [3](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) [4](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) 
 
-* As soon as possible, understand the following. 
+* As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- just insanely powerful. 
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalizing your dataset which you probably want)
   * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)) -- easily gets you a null distribution, which is sometimes hard to analytically derive in closed form)
