@@ -89,7 +89,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research, cognitive neuroscience and biomedical research:
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
-  * Ways to proceed by Andrew Geleman:  [1](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) [2](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) [3](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and really anything the AG has [written](http://www.stat.columbia.edu/~gelman/research/published/)
+  * Ways to proceed by Andrew Gelman:  [1](http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf) [2](http://www.stat.columbia.edu/~gelman/research/published/retropower20.pdf) [3](http://www.stat.columbia.edu/~gelman/research/published/incrementalism_3.pdf) and really anything the AG has [written](http://www.stat.columbia.edu/~gelman/research/published/)
   
 * As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- insanely powerful. 
