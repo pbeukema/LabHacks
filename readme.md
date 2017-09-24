@@ -36,6 +36,7 @@ Use it for writing text, markup, code, scripts, etc.
 
 ##  Programming
 * Start using github. It is excellent for version control and for sharing. Consider how many times you have written a script called analysis_v5_final_reallyfinal_thistime_final.py. With github you will just have analysis.py. With github, other researchers can replicate exactly what you did. This will ultimately save you time, if someone emails you for example.
+* If you write software for the use of the greater scientific community, it will be a lot easier for others to port your code and collaborate if you follow a standard set of guidelines when packaging your project for release (e.g. on github). Here is a [template](https://github.com/uwescience/shablona) to follow written by Ariel Rokem. 
 
 * A lot of open software that is developed for neuroscience runs on either Linux or OSX but not Windows. So consider installing Linux. [Ubuntu](https://help.ubuntu.com/lts/installation-guide/) is a popular distribution that has extensive support if you get stuck.
 
@@ -49,6 +50,7 @@ Use it for writing text, markup, code, scripts, etc.
   * Install [Anaconda](https://www.continuum.io/downloads) which is a scientific distribution of python that enables high performance computing and analysis.
   * Learn numpy (a package for scientific computing) with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
   * Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
+  
 
 * Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) & and  [bash](https://ss64.com/bash/syntax-keyboard.html). Consider a mechanical keyboard so your labmates love you, then hotkey some more.
 
