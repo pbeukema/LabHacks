@@ -47,6 +47,7 @@ Use it for writing text, markup, code, scripts, etc.
 * Now want to learn Python?
   * Here is a [Python Bootcamp notebook](https://github.com/TomDonoghue/PythonBootcamp/blob/master/ProgrammingWithPython.ipynb) that provides excellent advice on learning Python, written by Tom Donoghue. 
   * Everyone in our lab started with [Learn Python the Hard Way](https://learnpythonthehardway.org/book/). 52 exercises spanning installing Python to building a web app. 
+  * Read the [style guide](https://www.python.org/dev/peps/pep-0008/) for Python
   * Install [Anaconda](https://www.continuum.io/downloads) which is a scientific distribution of python that enables high performance computing and analysis.
   * Learn numpy (a package for scientific computing) with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
   * Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
