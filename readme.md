@@ -124,7 +124,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * Wagenmakers new blog! [Bayesian Spectacles](https://www.bayesianspectacles.org)
 
 ##  Writing papers
-* See these [Ten simple rules for structuring papers](http://biorxiv.org/content/biorxiv/early/2016/11/28/088278.full.pdf
+* See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
 
 * Publish your paper to one of the [arXivs](http://www.biorxiv.org/submit-a-manuscript). If your PI doesn't support that, convince them.
