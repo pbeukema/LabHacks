@@ -220,6 +220,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
 
+## Facts about Brains
+* (Brain Facts and Figures)[https://faculty.washington.edu/chudler/facts.html?utm_content=buffer97672&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]
+
 ## Acknowledgments
 Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.
 
