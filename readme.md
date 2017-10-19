@@ -85,6 +85,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Statistical analysis
 * If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
 
+* See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts, because you haven't had enough.  
+
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
 
