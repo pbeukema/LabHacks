@@ -98,7 +98,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- insanely powerful. 
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalization
-  * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)) -- gets you a null distribution, sometimes hard to analytically derive in closed form)
+  * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)) -- gets you a null distribution, sometimes hard to analytically derive in closed form
   * [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI.
    
   
