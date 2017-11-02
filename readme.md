@@ -78,6 +78,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * If you use Matlab, try out the [gramm toolbox](https://github.com/piermorel/gramm), inspired by R's ggplot2. 
 
+* Have a look at the tutorials on [flowingdata](http://flowingdata.com/) for excellent data visualization.
+
 * Save your figures in svg, or eps, not png. 
 
 ##  Statistical analysis
@@ -197,7 +199,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@BLAMlab](https://twitter.com/blamlab?lang=en) stroke recovery, motor control
 * [@diedrichsenlab](https://twitter.com/diedrichsenlab) computational neuroimaging   
 * [@talyarkoni](https://twitter.com/talyarkoni?lang=en) imaging, meta 
-
+* [@flowingdata](https://twitter.com/flowingdata) data visualization
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
 * [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
