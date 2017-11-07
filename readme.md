@@ -2,6 +2,7 @@
 * [Programming](#programming)   
 * [Making figures nice](#generating-publication-quality-figures)    
 * [Statistics](#statistical-analysis)      
+* [Giving Talks](#giving-talks)
 * [fMRI](#doing-fmri)  
 * [Ephys](#analyzing-ephys-data)  
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
@@ -125,6 +126,10 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
   * Wagenmakers new blog! [Bayesian Spectacles](https://www.bayesianspectacles.org)
+##  Giving talks
+* [Advice](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) on giving scientific talks. 
+
+
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
