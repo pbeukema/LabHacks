@@ -288,5 +288,5 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [Brain Facts and Figures](https://faculty.washington.edu/chudler/facts.html?utm_content=buffer97672&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Acknowledgments
-Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, and Daniel Borek for making this page more useful.
+Thanks to contributions from Ran Liu, Annie Homan, Rory Flemming, Daniel Borek, and Matt Boring for making this page more useful.
 
