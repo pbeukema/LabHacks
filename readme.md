@@ -3,7 +3,7 @@
 * [Making figures nice](#generating-publication-quality-figures)    
 * [Statistics](#statistical-analysis)      
 * [Giving Talks](#giving-talks)
-* [fMRI](#doing-fmri)  
+* [fMRI](#fmri)  
 * [Ephys](#analyzing-ephys-data)  
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
 * [Lit search](#literature-search)  
@@ -103,9 +103,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [permutation tests](https://en.wikipedia.org/wiki/Resampling_(statistics)) -- gets you a null distribution, sometimes hard to analytically derive in closed form
   * [Here](https://docs.google.com/presentation/d/11TozBxAaON1eFXeL6aK1USLtJyAbUaHhskcPkI0FLbc/edit#slide=id.g138cbbed1a_0_0 ) are some lecture notes that look at these topics in the context of multivariate pattern analysis in fMRI.
    
-*	Avoid double dipping—ie make sure not to use your test data in NO WAY influence your hypothesis
-    *	 keep the data out of averages, dimensionality reduction, standardization, etc
-    * 	See: “Circular analysis in systems neuroscience: the dangers of double dipping”
+*	Do not let your test data into your training data (i.e. double dipping)
 
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
@@ -147,7 +145,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
 
-##  Doing fMRI
+##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
 
 * Standardize your imaging data set using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large.
@@ -164,48 +162,12 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Before you get really deep in your design, check out [NeuroSynth](http://neurosynth.org) (written by Tal Yarkoni) to run a meta analysis on your covariates of interest to see what has been done before. 
 
-##  Doing MEG
-* Temporal signal-space separation [tsss] is a necessary first step for preprocessing MEG data if you later plan to source-localize. See  "Removal of magnetoencephalographic artifacts with temporal signal-space separation: demonstration with single-trial auditory-evoked responses"
-*	It’s included as part of Elekta’s Neuromag proprietary software package, so contact your MEG center to see if they can run it for you
-    *	If not, a free (not as well tested version) is included in MNE-python
-    * Digitized head points correct for motion and other magnetic artifacts
-    
-* You’ll need a quality structural MRI and cortical Freesurfer reconstruction if you want to analyze the source space
-
+##  MEG
 *	[MNE-python](https://www.martinos.org/mne/stable/index.html) is the go-to for source localization and sensor space data processing
-    *	Included in this package are python, MATLAB and C scripts to help you go from MEG to processing
-    *	It easily interfaces to your programming language of choice
-    *	Here you can filter your data, often from 1-50 Hz, down sample (depending on your acquisition parameters), and epoch according to your task
-    *	Included in the suite are visualization and processing tools too, but feel free to use your own, the data structures are very intuitive
-    *	You can also co-register subjects to common space after you have results
-
+    
 ## Doing ECoG
-*	ECoG processing methods are highly variable from lab to lab, chances are your lab has it’s own way, but it’s necessary for the field to come to standards
-
-*	Theoretically, concepts from EEG and MEG are very similar; however, coverage from subject to subject is variable which gives rise to challenges when analyzing your data
-
-*	Two key parts of the equation are electrode localization and signal processing
-
-*	You’ll need a post-implantation structural MRI to localize depth electrodes (stereotaxic EEG), and a pre-implantation structural MRI/post-implantation CT scan to localize surface electrodes (electrocorticography) 
-*	There are a variety of packages that allow for manual localization: 
-    *	[Brainstorm](http://neuroimage.usc.edu/brainstorm/)—a very intuitive Matlab toolbox is great for depths
+*	For localizing surface electrodes see this [python toolbox](https://github.com/ChangLabUcsf/img_pipe) 
     
-*	If you use a different programming language or need to localize surface electrodes see: “Semi-automated Anatomical Labeling and Inter-subject Warping of High-Density Intracranial Recording Electrodes in Electrocorticography” (a python toolbox for depths and grids) AND “Automated electrocorticographic electrode localization on individually rendered brain surfaces” (details of localizing ECoG grids)
-    *	Since depths and grids are localized using two different MRI scans (pre and post-op) you will have to co-register them to a common space.
-    *	 This is not already done in the python toolbox, and can be done using built in brainstorm functions
-    
-*	[FieldTrip](http://www.fieldtriptoolbox.org/) is a Matlab toolbox for general signal processing, you can use it to read events from your recordings, filter the data (often bandpass from 0.1-250 Hz and notch at 60 Hz), and epoch
-    *	After preprocessing you can analyze either the voltage traces or “broadband” signal, which is the average spectral density of frequencies from 60-120 Hz (variable) standardized relative to baseline to create a z-score of activation
-    *	The broadband is thought to be related to population firing rate while ERP is influenced by the local field
-    *	Both contain independent information so it is often useful to analyze both together
-    
-*	After you’ve analyzed the data in your own pipeline you may want to visualize the activity interpolated on the cortical surface (since ECoG sampling is sparse)
-    *	To do so you’ll need a Freesurfer reconstruction on the pre-op MRI (since the post-op often contains artifacts from the electrodes)
-    *	Next use a method to interpolate the data onto individual cortical surfaces
-*	See: [NeuralAct](http://www.neuralgate.org/software) (a useful and well documented Matlab toolbox for interpolation) and it's associated publication
-
-*	Again, the field has few standards so definitely explore the literature and consider building your own toolboxes to publish and share
-
 ## Doing structural MRI
 *	You’ve probably already heard of [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)—necessary for cortical reconstruction, parcellation, ROI definition, structural analysis, and lot’s of other functionalities
 
