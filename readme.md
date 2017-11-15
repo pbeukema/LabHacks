@@ -86,7 +86,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Statistical analysis
 * If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
 
-* See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts, because you haven't had enough.  
+* See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts.  
 
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
@@ -96,7 +96,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
   * How to proceed: [Abandon statistical thresholds](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
-  
+* Avoid doing ANOVAs in your analysis. Some statisticians don't even think ANOVA is taught anymore, but in fact it is, especially in biology programs. Instead of ANOVA use hierarchical aka mixed effect models. [Here](http://mfviz.com/hierarchical-models/) is a really beautiful demonstration of this concept.   
 * As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- insanely powerful. 
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalization
