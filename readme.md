@@ -69,6 +69,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ```
 
 ##  Generating publication quality figures
+* First read these [ten rules for better figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) (and accompanying [source code](https://github.com/rougier/ten-rules))
 * If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
 
 * Use your plotting software of choice (e.g. seaborn) to get your figure as close to final as possible. Avoid having to make post-edits in illustrator/inkscape which can be a huge time sink as a graduate student.
