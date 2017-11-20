@@ -15,7 +15,7 @@
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
 ## Open science (opsci) essentials
-* For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, datasets, point people to etc. The fastest (<1 hr) and simplest (4 steps) way I have come across is through jekyll. Follow these steps.  
+* For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, datasets, point people to X project, etc. The fastest (<1 hr) and simplest (4 steps) way I have come across is through jekyll. Follow these steps.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
     2. Clone a jekyll website repository to get a resume/academic template (e.g. clone this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
     3. Rename the repository you just cloned to [username].github.io. [username] is your username from step 1.  
