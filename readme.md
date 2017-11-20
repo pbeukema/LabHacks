@@ -1,3 +1,4 @@
+* [Open science](#open-science-(opsci)-essentials)
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
 * [Making figures nice](#generating-publication-quality-figures)    
@@ -13,7 +14,7 @@
 * [Meta Neuro Papers](#papers)  
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
-## Open Science
+## Open science (opsci) essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, datasets etc. If you do not have one and are looking for a free and reactive website, this is how simple it is. 
     * Get a github account (or use your existing one).  
     * Clone a jekyll website repository to get a resume/academic template (e.g. clone https://github.com/alshedivat/al-folio). 
