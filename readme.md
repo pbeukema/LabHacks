@@ -15,12 +15,12 @@
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
 ## Open science (opsci) essentials
-* For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, datasets, point people to X project, etc. The fastest (<1 hr) and simplest (4 steps) way I have come across is through jekyll. Follow these steps.  
+* For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr) and simplest way (4 steps) I have come across is through [jekyll](https://jekyllrb.com). N.B. You do not need to install anything locally on your machine, the following steps are sufficient.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
-    2. Clone a jekyll website repository to get a resume/academic template (e.g. clone this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
-    3. Rename the repository you just cloned to [username].github.io. [username] is your username from step 1.  
+    2. [Fork](https://help.github.com/articles/fork-a-repo/) a jekyll repository to get an academic template on your account (e.g. fork this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
+    3. Rename the repository you just forked to [username].github.io. [username] is your username from step 1.  
     4. Edit the meta data in the pages directory and config.yml files to suit your needs, 
-    * Go to your website (which will live https://[username].github.io). N.B. You do not need to install jekyll locally on your machine for this to work. The above steps are sufficient. 
+    * Go to your website (which will live at https://[username].github.io). 
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
