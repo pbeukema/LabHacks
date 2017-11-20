@@ -13,7 +13,8 @@
 * [Meta Neuro Papers](#papers)  
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
-
+## Open Science
+* To help foster open science, it is a good idea to have a website, where you can link to pdfs of your manuscripts, reference code, datasets etc. If you do not have one and looking for a free and reactive website, this is how simple it is. 1. Get a github account. 2. Clone a jekyll website repository to get a resume/academic template (e.g. https://github.com/alshedivat/al-folio). 3. rename the repo to [username].github.io. Give Github a few minutes and then go to https://[username].github.io Edit the meta data (e.g. your name) to suit your needs. That is it - it really is that simple.   
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
