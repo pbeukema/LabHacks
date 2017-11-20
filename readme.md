@@ -17,10 +17,10 @@
 ## Open science (opsci) essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to pdfs of your manuscripts, reference code, datasets, point people to etc. The fastest (<1 hr) and simplest (4 steps) way I have come across is through jekyll. Follow these steps.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
-    2. Clone a jekyll website repository to get a resume/academic template (e.g. clone [this](https://github.com/alshedivat/al-folio) your site will eventually look like [this](https://pbeukema.github.io)). 
-    3. Rename the repository you just cloned to [username].github.io. [username] is your actual username (without brackets)
-    4. Edit the meta data in the pages directory and config.yml files to suit your needs, go to https://[username].github.io 
-    * N.B. You do not need to install jekyll locally on your machine for this to work. The above steps are sufficient. 
+    2. Clone a jekyll website repository to get a resume/academic template (e.g. clone this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
+    3. Rename the repository you just cloned to [username].github.io. [username] is your username from step 1.  
+    4. Edit the meta data in the pages directory and config.yml files to suit your needs, 
+    * Go to your website (which will live https://[username].github.io). N.B. You do not need to install jekyll locally on your machine for this to work. The above steps are sufficient. 
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
