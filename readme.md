@@ -233,6 +233,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@diedrichsenlab](https://twitter.com/diedrichsenlab) computational neuroimaging   
 * [@talyarkoni](https://twitter.com/talyarkoni?lang=en) imaging, meta 
 * [@flowingdata](https://twitter.com/flowingdata) data visualization
+* [@ShuhBillSkee](https://twitter.com/ShuhBillSkee) 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
 * [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
