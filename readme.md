@@ -254,10 +254,12 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
+* For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from a 2017 course at Stanford.  
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 * [Know when and when not to say No](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
 * Find (neuro)hackathons in your area and go to them. You get to meet all kinds of people and produce something at an incredibly fast rate, thanks to the symbiosis of working on a team. Can be especially refreshing if you are spending years on your projects. 
+
 
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
