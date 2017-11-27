@@ -22,6 +22,8 @@
     3. Rename the repository you just forked to [username].github.io. [username] is your username from step 1.  
     4. Edit the data in the pages directory and config.yml files to suit your needs. 
     * Go to your website (which will live at https://[username].github.io). 
+    
+* Need to get a paper but behind a paywall? Try [here](https://sci-hub.bz).  
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
