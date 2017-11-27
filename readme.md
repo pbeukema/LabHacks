@@ -1,3 +1,4 @@
+## Table of Contents
 * [Open science](#open-science-opsci-essentials)
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
