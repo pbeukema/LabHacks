@@ -102,8 +102,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
 
-* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research, cognitive neuroscience and biomedical research:
-  * [Beyond the dead salmon talk](slides.com/neuro_logical/pvps): p-values, p-value problems, power in neuroscience, reproducibility crisis, replication, and strategies for overcoming these problems. 
+* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobiology, cognitive neuroscience and much of biomedical research:
+  * [Beyond the dead salmon](https://slides.com/neuro_logical/pvps): talk on p-values and how it relates to the current reproducibility crisis and pragmatic approaches to the problem. 
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
   * How to proceed: [Abandon statistical thresholds](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
