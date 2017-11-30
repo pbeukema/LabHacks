@@ -10,6 +10,7 @@
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
 * [Lit search](#literature-search)  
 * [Writing papers](#writing-papers)   
+* [Giving talks](#giving-talks)   
 * [Grant Writing](#grant-writing)  
 * [Meetings](#meetings-with-your-pi)     
 * [Meta Neuro Papers](#papers)  
@@ -157,6 +158,11 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Steven Pinker has some interesting thoughts on how to make academic writing [better](http://stevenpinker.com/files/pinker/files/why_academics_stink_at_writing.pdf)
 
 * If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
+
+## Giving talks
+* You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is one tool that meets those needs.  
+
+* It is very challgening to give high-quality talks and everyone struggles with it. A lot of academics do not receive training in how to give talks and do not know the most effective ways of presenting information - but this has been looked at! [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and here are some notes on the speaking portion. And [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) is Susan McConnell from Stanford giving a talk on how to give a good scientific talk. 
 
 ##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
