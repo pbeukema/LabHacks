@@ -26,6 +26,7 @@
     
 * Need to get a paper but behind a paywall? Try [here](https://sci-hub.bz).  
 
+
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
 
@@ -265,7 +266,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 * [Know when and when not to say No](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
 * Find (neuro)hackathons in your area and go to them. You get to meet all kinds of people and produce something at an incredibly fast rate, thanks to the symbiosis of working on a team. Can be especially refreshing if you are spending years on your projects. 
-
+* On making mistakes and being wrong. [Slides](https://www.slideshare.net/deevybishop/faillbility-in-science-responsible-ways-to-handle-mistakes) on Fallibility in science.  
 
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
