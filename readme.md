@@ -24,12 +24,16 @@
     4. Edit the data in the pages directory and config.yml files to suit your needs. 
     * Go to your website (which will live at https://[username].github.io). 
     
+* [Standardize](https://github.com/drivendata/cookiecutter-data-science) your project structure. Share with your colleagues. Be transparent. Following two lines will get you set up. 
+```quick version
+pip install cookiecutter 
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+```
+    
 * Need to get a paper but behind a paywall? Try [here](https://sci-hub.bz).  
 
 
-## Data analysis
-* Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
-
+## Data analysis 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
 Use it for writing text, markup, code, scripts, etc.
 
