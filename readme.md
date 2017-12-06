@@ -113,7 +113,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
   * How to proceed: [Abandon statistical thresholds](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
-* Avoid doing ANOVAs in your analysis. Some statisticians don't even think ANOVA is taught anymore, but in fact it is, especially in biology programs. Instead of ANOVA use hierarchical aka mixed effect models. [Here](http://mfviz.com/hierarchical-models/) is a really beautiful demonstration of this concept.   
+* Do you have multi-level data? E.g. do you have some cells from one animal and some other cells from a different animal? Are you pooling the data because they have similar distributions/variance? Instead you might want to consider [hierarchical](https://en.wikipedia.org/wiki/Multilevel_model) aka mixed effect models. [Here](http://mfviz.com/hierarchical-models/) is a really beautiful demonstration of this concept.   
 * As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- insanely powerful. 
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalization
