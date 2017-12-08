@@ -4,7 +4,6 @@
 * [Programming](#programming)   
 * [Making figures nice](#generating-publication-quality-figures)    
 * [Statistics](#statistical-analysis)      
-* [Giving Talks](#giving-talks)
 * [fMRI](#fmri)  
 * [Ephys](#analyzing-ephys-data)  
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
@@ -144,10 +143,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
   * Wagenmakers new blog! [Bayesian Spectacles](https://www.bayesianspectacles.org)
-##  Giving talks
-* [Advice](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) on giving scientific talks. 
-
-
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
@@ -165,9 +160,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
 
 ## Giving talks
-* You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is one tool that meets those needs.  
+* You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is a cross-platform tool that meets those needs.  
 
-* It is very challgening to give high-quality talks and everyone struggles with it. A lot of academics do not receive training in how to give talks and do not know the most effective ways of presenting information - but this has been looked at! [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and here are some notes on the speaking portion. And [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) is Susan McConnell from Stanford giving a talk on how to give a good scientific talk. 
+* It is very challenging to give high-quality talks and everyone struggles with it. A lot of academics do not receive training on how to give talks and do not know the most effective ways of presenting information - but this has been looked at. [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and  [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) are some notes on the speaking portion. 
 
 ##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
