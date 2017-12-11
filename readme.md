@@ -107,6 +107,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
 
+* [JASP](https://jasp-stats.org/) allows you to do Bayesian analysis of often used tests in a very easy and free to use package that is cross-platforms. 
+
 * Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobiology, cognitive neuroscience and much of biomedical research:
   * [Beyond the dead salmon](https://slides.com/neuro_logical/pvps): talk on p-values and how it relates to the current reproducibility crisis and pragmatic approaches to the problem. 
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
