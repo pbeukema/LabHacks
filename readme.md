@@ -188,19 +188,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  MEG
 *	[MNE-python](https://www.martinos.org/mne/stable/index.html) is the go-to for source localization and sensor space data processing
     
-## Doing ECoG
+## ECoG
 *	For localizing surface electrodes see this [python toolbox](https://github.com/ChangLabUcsf/img_pipe) 
     
-## Doing structural MRI
-*	You’ve probably already heard of [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)—necessary for cortical reconstruction, parcellation, ROI definition, structural analysis, and lot’s of other functionalities
-
-*	Check out [SUMA-AFNI](https://afni.nimh.nih.gov/Suma) for surface based analyses and commonly employed MRI statistical analysis
-
-*	You’ll need to get familiar with bash scripting if you’re going to utilize the wealth of resources the field has to offer
-
-*	Learn about subject, MRI, and average reference spaces so you know how to go from individual subject to group-wide analyses: [link](http://freesurfer.net/fswiki/CoordinateSystems)
-    *	Understand the concept of [Freesurfer spheres](https://surfer.nmr.mgh.harvard.edu/fswiki/SurfaceRegAndTemplates)—there are a variety of other software packages that use them to re-reference subject coordinates
-
 ##  Analyzing ephys data
 * Most ephys lab use in house analysis routines in (sometimes) relatively closed source and (oftentimes) expensive applications. Pavan Ramkumar @KordingLab has written an excellent open source [package](https://github.com/KordingLab/spykes) for spike data analysis and visualization in Python.
 
@@ -247,6 +237,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@talyarkoni](https://twitter.com/talyarkoni?lang=en) imaging, meta 
 * [@flowingdata](https://twitter.com/flowingdata) data visualization
 * [@ShuhBillSkee](https://twitter.com/ShuhBillSkee) 
+
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
 * [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
@@ -255,19 +246,18 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Never show up empty handed to meetings with your PI.
 * Have a clear objective to all meetings that everyone else knows as well.
 * Be able to show some evidence of your productivity.
-
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown.
 
 ## Guides
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
-* For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from a 2017 course at Stanford.  
+* For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from Stanford.  
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
-* [Know when and when not to say No](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
+* [Know when and when not to say no](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
 * Find (neuro)hackathons in your area and go to them. You get to meet all kinds of people and produce something at an incredibly fast rate, thanks to the symbiosis of working on a team. Can be especially refreshing if you are spending years on your projects. 
-* On making mistakes and being wrong. [Slides](https://www.slideshare.net/deevybishop/faillbility-in-science-responsible-ways-to-handle-mistakes) on Fallibility in science.  
+* [Slides](https://www.slideshare.net/deevybishop/faillbility-in-science-responsible-ways-to-handle-mistakes) on making mistakes and being wrong.  
 
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
