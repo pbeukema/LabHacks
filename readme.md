@@ -100,7 +100,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Save your figures in svg, or eps, not png. 
 
 ##  Statistical analysis
-* There are many incredible textbooks that you can find online. Here are three texts that take you from 
+* Learning statistics or want to brush up? Here are three textbooks (available online) that you can choose from depending on the depth you want to explore and mathematical background you have. 
   * [Stats without Tears](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf) -- cover the fundamentals, requires little mathematical background 
   * [All of Statistics](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf) -- more detailed than above, requires calculus and linear algebra
   * [Advanced data analysis](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf) -- if you dream about distributions, requires substantial statistical background 
