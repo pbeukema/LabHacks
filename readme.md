@@ -100,14 +100,17 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Save your figures in svg, or eps, not png. 
 
 ##  Statistical analysis
-* If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
+* There are many incredible textbooks that you can find online. Here are three texts that take you from 
+  * [Stats without Tears](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf) -- cover the fundamentals, requires little mathematical background 
+  * [All of Statistics](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf) -- more detailed than above, requires calculus and linear algebra
+  * [Advanced data analysis](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf) -- if you dream about distributions, requires substantial statistical background 
+* If you are teaching statistics, [here](http://students.brown.edu/seeing-theory/) are excellent visualizations of core concepts.
 
 * See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts.  
 
-* Learn to love Bayesian statistics, if you don't already.
-[This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
+* Learn to love Bayesian statistics, if you don't already. Read [this](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer. 
 
-* [JASP](https://jasp-stats.org/) allows you to do Bayesian analysis of often used tests in a very easy and free to use package that is cross-platforms. 
+* Looking for a Bayesian analysis package? Try [JASP](https://jasp-stats.org/).
 
 * Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobiology, cognitive neuroscience and much of biomedical research:
   * [Beyond the dead salmon](https://slides.com/neuro_logical/pvps): talk on p-values and how it relates to the current reproducibility crisis and pragmatic approaches to the problem. 
@@ -125,7 +128,6 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * [Rob Kass](http://www.stat.cmu.edu/~kass/), @CMU statistics, has written the extremely useful [Ten Simple Rules for Effective Statistical Practice](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961).
 
-* There are many texts on data analysis, but Cosma Shalizi [textbook](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf) is brilliant. 
 
 * Understand the bias/variance [trade off](https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/)
 
