@@ -151,8 +151,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
 ), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
+* Omit needless words, suppress the encyclopedic impulse, don't try to sound smart, and other sound [advice](https://golem.ph.utexas.edu/category/2017/12/on_writing_short_papers.html) from a mathematician.
 
-* Also, have a look at [this](http://andrewgelman.com/2009/07/30/advice_on_writi/) more general advice for writing papers by Andrew Gelman. 
+* Andrew Gelman provides some more general advice for academic writing [here](http://andrewgelman.com/2009/07/30/advice_on_writi/). 
 
 * Publish your paper to one of the [arXivs](http://www.biorxiv.org/submit-a-manuscript). If your PI doesn't support that, convince them.
 
