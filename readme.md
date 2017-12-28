@@ -172,6 +172,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
 
+* Neuroimaging is easy to do wrong and still get a result. Here are common pitfalls to avoid when running your analysis.  
+
 * It is absolutely critical to know what kind of power you have and what you can conclude from the kind of analysis that you are doing. Here is a useful [guide](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184923). 
 
 * Standardize your imaging data set using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large.
@@ -253,6 +255,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ## Guides
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
+
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
 * For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from Stanford.  
