@@ -172,7 +172,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
 
-* Neuroimaging is easy to do wrong and still get a result. Here are common pitfalls to avoid when running your analysis.  
+* Neuroimaging is easy to do wrong and still get a result. [Here](https://arxiv.org/pdf/1703.06670.pdf) are common pitfalls to avoid when running your analysis.  
 
 * It is absolutely critical to know what kind of power you have and what you can conclude from the kind of analysis that you are doing. Here is a useful [guide](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184923). 
 
