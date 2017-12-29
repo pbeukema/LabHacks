@@ -170,7 +170,10 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * It is very challenging to give high-quality talks and everyone struggles with it. A lot of academics do not receive training on how to give talks and do not know the most effective ways of presenting information - but this has been looked at. [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and  [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) are some notes on the speaking portion. 
 
 ##  fMRI
+
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
+
+* [Best practices](https://www.biorxiv.org/content/biorxiv/early/2016/07/10/054262.full.pdf) for reporting fMRI studies. 
 
 * Neuroimaging is easy to do wrong and still get a result. [Here](https://arxiv.org/pdf/1703.06670.pdf) are common pitfalls to avoid when running your analysis.  
 
