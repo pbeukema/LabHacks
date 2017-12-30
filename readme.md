@@ -28,9 +28,6 @@
 pip install cookiecutter 
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 ```
-    
-* Need to get a paper but behind a paywall? Try sci-hub. If [this](https://sci-hub.la) link is broken look on the right side of the [wikipedia page](https://en.wikipedia.org/wiki/Sci-Hub) for up-to-date links.  
-
 
 ## Data analysis 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
