@@ -23,7 +23,7 @@
     4. Edit the data in the pages directory and config.yml files to suit your needs. 
     * Go to your website (which will live at https://[username].github.io). 
     
-* It helps to start any new project with a standard project structure for other and your future self to follow along. [Here](https://github.com/drivendata/cookiecutter-data-science) is an example you might find useful which can be set up with just a couple commands. If you do not yet have python installed see the [progamming section][(#programming).
+* It helps to start any new project with a standard project structure for other and your future self to follow along. [Here](https://github.com/drivendata/cookiecutter-data-science) is an example you might find useful which can be set up with just a couple commands. If you do not yet have python installed see the [progamming section](#programming).
 ```quick version
 pip install cookiecutter 
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
