@@ -164,6 +164,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ## Giving talks
 * You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is a cross-platform tool that meets those needs.  
 
+* Check out ['The David Attenborough style of scientific presentations'](http://kbsgk12project.kbs.msu.edu/wp-content/uploads/2011/02/David-Attenborough-style-of-scientific-speaking.pdf) Giving a talk by treating your work as a cool story that people will naturally be curious to hear. 
+
 * It is very challenging to give high-quality talks and everyone struggles with it. A lot of academics do not receive training on how to give talks and do not know the most effective ways of presenting information - but this has been looked at. [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and  [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) are some notes on the speaking portion. 
 
 ##  fMRI
