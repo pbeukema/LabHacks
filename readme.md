@@ -149,7 +149,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * Wagenmakers new blog! [Bayesian Spectacles](https://www.bayesianspectacles.org)
   
 ## Artifical vs Biologicial Neural Networks
-* If you are a CS person you may want to know the main theoretical and practical differences between biological and artificial neural networks. [Here](https://www.erlichlab.org/brain-ai/) is a incrediblby well put together summary from the Erlich lab.  
+* If you are a CS person you may want to know the main theoretical and practical differences between biological and artificial neural networks. [Here](https://www.erlichlab.org/brain-ai/) is a incredibly well put together summary from the Erlich lab.  
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
