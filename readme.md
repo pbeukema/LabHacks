@@ -3,7 +3,8 @@
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
 * [Making figures nice](#generating-publication-quality-figures)    
-* [Statistics](#statistical-analysis)      
+* [Statistics](#statistical-analysis)  
+* [Artificial vs. Biological neural nets](#artifical-vs-biologicial-neural-networks)  
 * [fMRI](#fmri)  
 * [Ephys](#analyzing-ephys-data)  
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
@@ -136,6 +137,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * Your stats question may have an answer over [here](https://stats.stackexchange.com/) on cross-validated.
 
+
+
   ###  Statistics blogs
   * [While my MCMC gently samples](http://twiecki.github.io/)
 
@@ -144,6 +147,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 
   * Wagenmakers new blog! [Bayesian Spectacles](https://www.bayesianspectacles.org)
+  
+## Artifical vs Biologicial Neural Networks
+* If you are a CS person you may want to know the main theoretical and practical differences between biological and artificial neural networks. [Here](https://www.erlichlab.org/brain-ai/) is a incrediblby well put together summary from the Erlich lab.  
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
