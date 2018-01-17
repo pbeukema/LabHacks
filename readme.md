@@ -253,7 +253,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
-* [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
+* [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268). A carefuly evaluations about eh tools that neuroscientists use to attempt to understand the brain. A [talk](https://www.youtube.com/watch?v=EpztO20WSSI) covering the same topic and some extensions. 
 
 ##  Meetings
 * Never show up empty handed to meetings with your PI.
