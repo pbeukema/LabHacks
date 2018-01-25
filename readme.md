@@ -65,7 +65,7 @@ Use it for writing text, markup, code, scripts, etc.
   * Learn numpy (a package for scientific computing) with [these 100 exercises](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises%20no%20solution.ipynb) written by Nicolas Rougier.
   * Become a python data ninja. Thomas Wiecki provides a [great introduction](http://nbviewer.jupyter.org/format/slides/github/twiecki/pydata_ninja/blob/master/PyData%20Ninja.ipynb#/) to data science in python.
   
-* Write your code in a style that is easily readible. For example, see [this](https://www.python.org/dev/peps/pep-0008/) one for python and [this](https://github.com/bahamas10/bash-style-guide) one for Bash. 
+* Make it easier on yourself and others by writing healthy and clean code. There are style guides you can reference. For example, see [this](https://www.python.org/dev/peps/pep-0008/) one for python and [this](https://github.com/bahamas10/bash-style-guide) one for Bash. 
 * Use hotkeys for [google](https://support.google.com/chrome/answer/157179?hl=en), [gmail](https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en), [atom](https://github.com/nwinkler/atom-keyboard-shortcuts), [jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) & and  [bash](https://ss64.com/bash/syntax-keyboard.html). Consider a mechanical keyboard so your labmates love you, then hotkey your keyboard to eliminate typing entirely.
 
 * Not sure how to code something? It may have an answer on [stack overflow](https://stackoverflow.com/). Even professional programmers use stack overflow.
