@@ -153,7 +153,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
-), written by [Konrad Kording](http://koerding.com/) and Brett Mensh who has a crazy fascinating history [podcast](https://www.acast.com/neurotransmissionspodcast/17-science-writing-and-life-living-with-dr.-brett-mensh). 
+), written by [Konrad Kording](http://koerding.com/) and Brett Mensh who has a [crazy fascinating history]https://www.acast.com/neurotransmissionspodcast/17-science-writing-and-life-living-with-dr.-brett-mensh). 
 
 * Omit needless words, suppress the encyclopedic impulse, don't try to sound smart, and other sound [advice](https://golem.ph.utexas.edu/category/2017/12/on_writing_short_papers.html) from a mathematician.
 
