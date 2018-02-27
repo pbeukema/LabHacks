@@ -16,7 +16,10 @@
 * [Meta Neuro Papers](#papers)  
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
-## Open science (opsci) essentials
+
+All the resources provided here are open source software. 
+
+## Open science essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
     2. [Fork](https://help.github.com/articles/fork-a-repo/) a jekyll repository to get an academic template on your account (e.g. fork this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
@@ -153,7 +156,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ##  Writing papers
 * See these [Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
-), written by [Konrad Kording](http://koerding.com/) and Brett Mensh who has a [crazy fascinating history]https://www.acast.com/neurotransmissionspodcast/17-science-writing-and-life-living-with-dr.-brett-mensh). 
+), written by [Konrad Kording](http://koerding.com/) and Brett Mensh.
 
 * Omit needless words, suppress the encyclopedic impulse, don't try to sound smart, and other sound [advice](https://golem.ph.utexas.edu/category/2017/12/on_writing_short_papers.html) from a mathematician.
 
@@ -238,10 +241,10 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Be aware of what grants have been funded in your field, by searching [nih reporter](https://projectreporter.nih.gov/reporter.cfm). This will tell you what was funded, the program officer, the PI, etc.
 
 ## Twitter is a great resource for identifying new papers, events, tips etc.
-* [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, theoretical neuroscience, imaging (DSI/fMRI)
 * [@KordingLab](https://twitter.com/kordinglab)  neural data science, computational modeling
 * [@StatModeling](https://twitter.com/StatModeling)  statistics, hierarchical bayesian modeling, R
-* [@NKriegeskorte](https://twitter.com/NKriegeskorte)  fMRI, RSA, deep learning
+* [@thefreemanlab](https://twitter.com/thefreemanlab) Director of computational biology at CZI
+* [@NKriegeskorte](https://twitter.com/NKriegeskorte)  fMRI, RSA, deep learning applied to neuroimaging
 * [@jakevdp](https://twitter.com/jakevdp)  python, data analysis, astrophysics
 * [@fonnesbeck](https://twitter.com/fonnesbeck) statistical analysis in python
 * [@bioRxiv Neuroscience](https://twitter.com/biorxiv_neursci) the Rxiv for neuro
@@ -250,7 +253,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@diedrichsenlab](https://twitter.com/diedrichsenlab) computational neuroimaging   
 * [@talyarkoni](https://twitter.com/talyarkoni?lang=en) imaging, meta 
 * [@flowingdata](https://twitter.com/flowingdata) data visualization
-* [@ShuhBillSkee](https://twitter.com/ShuhBillSkee) 
+* [@tdverstynen](https://twitter.com/tdverstynen)  cognitive neuroscience, theoretical neuroscience, imaging (DSI/fMRI)
+
+
 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
@@ -264,10 +269,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 ## Guides
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
-
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
-* For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from Stanford.  
+* Here is course called [personal finance for engineers](https://cs007.blog/) from Stanford.  
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 * [Know when and when not to say no](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
