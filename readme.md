@@ -17,7 +17,7 @@
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
 
-All the resources provided here are open source software. 
+All the resources provided here are open source. 
 
 ## Open science essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
