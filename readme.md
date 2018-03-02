@@ -19,7 +19,7 @@
 
 All the resources provided here are open source. 
 
-## Open science essentials
+## Essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
     2. [Fork](https://help.github.com/articles/fork-a-repo/) a jekyll repository to get an academic template on your account (e.g. fork this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
@@ -32,6 +32,7 @@ All the resources provided here are open source.
 pip install cookiecutter 
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 ```
+* Need a paper but behind a paywall? Try [sci-hub](https://sci-hub.tw/)
 
 ## Data analysis 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
