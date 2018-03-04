@@ -19,6 +19,10 @@
 
 All the software resources provided here are open source. 
 
+## Pillars of open science
+* The three pillars of open science are open data, open code, and open papers. Together, these mean that your peers and anyone else can  read your paper without a paywall and reproduce the analysis that led you to your conclusions. It also means that they can expand on your analysis, spot errors, collaborate more easily, and generally progress faster. There are many resources for enabling you to share data, code, and your papers more easily, however, there is not a single repository containing data organized by either recording modality (CA imaging, ephys, fMRI, in vivo recordings) or experimental manipulation. 
+
+
 ## Essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
     1. Sign up for [github](https://github.com) if you do not have an account.  
@@ -33,6 +37,7 @@ pip install cookiecutter
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 ```
 * Need a paper but behind a paywall? Try [sci-hub](https://sci-hub.tw/)
+
 
 ## Data analysis 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
