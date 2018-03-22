@@ -19,6 +19,8 @@
 
 All the software resources provided here are open source. 
 
+
+
 ## Pillars of open science
 * The three pillars of open science are open data, open code, and open papers. Together, these mean that your peers and anyone else can  read your paper without a paywall and reproduce the analysis that led you to your conclusions. It also means that they can expand on your analysis, spot errors, collaborate more easily, and generally progress faster. There are many resources for enabling you to share data, code, and your papers more easily, however, there is not a single repository containing data organized by either recording modality (CA imaging, ephys, fMRI, in vivo recordings) or experimental manipulation. 
 
@@ -274,6 +276,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * You will have some days or weeks where nothing worked. I found that in those cases it is productive to have a "rainy day" folder containing interesting analyses/figures you have not yet shown.
 
 ## Guides
+* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html)
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
