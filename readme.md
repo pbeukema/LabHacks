@@ -21,9 +21,6 @@ All the software resources provided here are open source.
 
 
 
-## Pillars of open science
-* The three pillars of open science are open data, open code, and open papers. Together, these mean that your peers and anyone else can  read your paper without a paywall and reproduce the analysis that led you to your conclusions. It also means that they can expand on your analysis, spot errors, collaborate more easily, and generally progress faster. There are many resources for enabling you to share data, code, and your papers more easily, however, there is not a single repository containing data organized by either recording modality (CA imaging, ephys, fMRI, in vivo recordings) or experimental manipulation. 
-
 
 ## Essentials
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
@@ -179,12 +176,17 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
 
-## Giving talks
+## Giving talks 
+* Check out ['The David Attenborough style of scientific presentations'](http://kbsgk12project.kbs.msu.edu/wp-content/uploads/2011/02/David-Attenborough-style-of-scientific-speaking.pdf) Give a talk by treating your work as a cool story that people will naturally be curious to hear. 
+
 * You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is a cross-platform tool that meets those needs.  
 
-* Check out ['The David Attenborough style of scientific presentations'](http://kbsgk12project.kbs.msu.edu/wp-content/uploads/2011/02/David-Attenborough-style-of-scientific-speaking.pdf) Giving a talk by treating your work as a cool story that people will naturally be curious to hear. 
-
 * It is very challenging to give high-quality talks and everyone struggles with it. A lot of academics do not receive training on how to give talks and do not know the most effective ways of presenting information - but this has been looked at. [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and  [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) are some notes on the speaking portion. 
+
+* Here is one talk that might be a design inspiration. [How Github uses Github to build Github](https://zachholman.com/talk/how-github-uses-github-to-build-github/)
+
+* [How to make slides](https://kieranhealy.org/blog/archives/2018/03/24/making-slides/)
+
 
 ##  fMRI
 
@@ -287,6 +289,9 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Find (neuro)hackathons in your area and go to them. You get to meet all kinds of people and produce something at an incredibly fast rate, thanks to the symbiosis of working on a team. Can be especially refreshing if you are spending years on your projects. 
 * [Slides](https://www.slideshare.net/deevybishop/faillbility-in-science-responsible-ways-to-handle-mistakes) on making mistakes and being wrong.  
 * [Guide](http://www.math.cornell.edu/~hubbard/readingmath.pdf) on reading math. 
+
+## Pillars of open science
+* The three pillars of open science are open data, open code, and open papers. 
 
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
