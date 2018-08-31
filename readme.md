@@ -19,7 +19,6 @@
 
 
 ## Pillars of open science
-N.B. These skills take time to learn. Here is a Berkeley course which provides many tutorials for each of these pillars. https://berkeley-stat159-f17.github.io/stat159-f17/
 
 * Version control: Git and GitHub
 * Programming: Python and R
@@ -31,6 +30,8 @@ N.B. These skills take time to learn. Here is a Berkeley course which provides m
 * Figshare
 * arXiv
   
+Here is a Berkeley course which provides many tutorials for each of these pillars. https://berkeley-stat159-f17.github.io/stat159-f17/
+ 
 * For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.
     1. Sign up for [github](https://github.com) if you do not have an account.
     2. [Fork](https://help.github.com/articles/fork-a-repo/) a jekyll repository to get an academic template on your account (e.g. fork this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)).
